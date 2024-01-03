@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body {
+    font-size: 100%;
+    font-family: sans-serif;
+ }
+ div, section, header, span, ul, li, a {
+    box-sizing: border-box;
+ }
+
+ header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2.5em;
+    align-items: center;
+    background-color: #de832e;
+    position: fixed;
+    z-index: 999;
+ }
+
+ #menu li{
+   list-style: none;
+   display: inline-block;
+   margin: 1rem;
+ }
+ #menu li a {
+    color: black;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    text-shadow: 3px 3px 5px white;
+ }
+
+ #menu li a:hover {
+    color: purple;
+    background-color: #F1FB99;
+ }
+
+ #logo {
+    max-height: 8rem;
+ }
+
+ section {
+    width: 100%;
+    height: 100vh;
+ }
+ 
+ #inicio {
+   background-color: #E7AE5E;~
+   padding: 6rem 0 0 0;
+   height: auto;
+ }
+
+ #inicio img{
+   object-fit: cover;
+   width: 100%;
+   aspect-ratio: 16/9;
+ }
+
+ #sobrenos {
+   background-color: #e60303;
+   color: #333;
+ }
+
+#contactos{
+ background-color: #733b20;
+ color:#fff
+}
+
+#servicos{
+   background-color: #E7AE5E;
+   color: #000;
+}
+
+#cards {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.card_catalogo{
+   background-color: #e60303;
+   color: #000;
+   margin: 1.1em 1em;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   border-radius: 5px;
+   width: 30%;
+   min-width: 240px;
+   display: inline-block;
+}
+.card_container {
+   padding: 1em 1.2em;
+}
+
+.card_catalogo img {
+   border-radius: 5px 5px 0px 0px;
+   object-fit: cover;
+   width: 100%;
+   aspect-ratio: 16/9;
+}
+
+.card_catalogo:hover {
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   scale: 1.02;
+   rotate: 2deg;
+
+}
+
+h1{
+   text-align: center;
+   padding: 2rem;
+}
+
+html{
+   scroll-behavior: smooth;
+}
