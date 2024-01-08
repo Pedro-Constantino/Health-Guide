@@ -6,6 +6,7 @@
  body {
     font-size: 100%;
     font-family: sans-serif;
+    background-image: url(Imagens/mw-1920.png);
  }
  div, section, header, span, ul, li, a {
     box-sizing: border-box;
@@ -17,7 +18,8 @@
     justify-content: space-between;
     padding: 1em 2.5em;
     align-items: center;
-    background-color: #de832e;
+    background: rgb(46,192,249);
+background: linear-gradient(45deg, rgba(46,192,249,1) 0%, rgba(255,0,0,1) 100%);
     position: fixed;
     z-index: 999;
  }
@@ -36,10 +38,7 @@
     text-shadow: 3px 3px 5px white;
  }
 
- #menu li a:hover {
-    color: purple;
-    background-color: #F1FB99;
- }
+
 
  #logo {
     max-height: 8rem;
@@ -47,13 +46,14 @@
 
  section {
     width: 100%;
-    height: 100vh;
+    
  }
  
- #inicio {
-   background-color: #E7AE5E;~
+ #missao {
+   background-color: transparent;
    padding: 6rem 0 0 0;
    height: auto;
+   color: black;
  }
 
  #inicio img{
@@ -63,18 +63,18 @@
  }
 
  #sobrenos {
-   background-color: #e60303;
+   background-color: trans;
    color: #333;
  }
 
 #contactos{
- background-color: #733b20;
- color:#fff
+ background-color: transparent;
+ color: black;
 }
 
 #servicos{
-   background-color: #E7AE5E;
-   color: #000;
+   background-color: transparent;
+   color: black;
 }
 
 #cards {
@@ -121,4 +121,26 @@ h1{
 
 html{
    scroll-behavior: smooth;
+}
+
+#footer {
+   display: flex;
+   justify-content: space-between;
+   height: 100%;
+   padding: 25px;
+   background-color: #ff0000;
+   color: #ffff;
+   text-align: right;
+}
+
+#sobrenos {
+   text-align: center;
+}
+
+#missao {
+   text-align: center;
+}
+
+#mission_container {
+   background-color: white;
 }
