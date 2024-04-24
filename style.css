@@ -85,8 +85,8 @@ background: linear-gradient(45deg, rgba(46,192,249,1) 0%, rgba(255,0,0,1) 100%);
    flex-wrap: wrap;
 }
 
-.card_catalogo{
-   background-color: #e60303;
+.card_servico{
+   background-color: white;
    color: #000;
    margin: 1.1em 1em;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -100,14 +100,14 @@ background: linear-gradient(45deg, rgba(46,192,249,1) 0%, rgba(255,0,0,1) 100%);
    padding: 1em 1.2em;
 }
 
-.card_catalogo img {
+.card_servico img {
    border-radius: 5px 5px 0px 0px;
    object-fit: cover;
    width: 100%;
    aspect-ratio: 16/9;
 }
 
-.card_catalogo:hover {
+.card_servico:hover {
    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
    scale: 1.02;
    rotate: 2deg;
